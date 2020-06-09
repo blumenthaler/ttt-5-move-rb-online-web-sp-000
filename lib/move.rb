@@ -2,21 +2,23 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def update_array_at_with(array, index, value)
-  array[index] = value
-end
-update_array_at_with(board, 0, "X")
-
 
 
 def input_to_index(user_input)
   user_input.to_i - 1
 end 
 
+
 def move(board, index_number, players_character = "X")
-  
-  
+
 end
+
+
+def update_array_at_with(array, index, value)
+  array[index] = value
+end
+update_array_at_with(board, 0, "X")
+
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
