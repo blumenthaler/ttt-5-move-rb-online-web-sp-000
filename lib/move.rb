@@ -15,6 +15,8 @@ end
 
 
 def move(board, index_number, players_character = "X")
+  
+  
 end
 
 def display_board(board)
