@@ -16,10 +16,6 @@ def move(board, index, players_character = "X")
   update_array_at_with(board, index, players_character)
 end
 
-
-
-
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
